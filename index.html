@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Drum Machine - FCC</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="main.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/66dd3676af.js" crossorigin="anonymous"></script> <!--fontawesome script - save this-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> <!--this is jquery script-->
+  </head>
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <h1>Percussion Sounds</h1>
+    <img src="https://img.icons8.com/sf-regular/344/peptide.png">
+<main>
+<div id="container">
+
+  <section id="drum-machine">
+  <div>
+    <button onclick="qplay()"class="drum-pad" id="q-audio">Q<audio src="C:\Users\jpaul\Music\Sounds\percussion1.mp3" class="clip" id="Q"></audio></button>
+    <button onclick="wplay()"class="drum-pad" id="w-audio">W<audio src= "C:\Users\jpaul\Music\Sounds\percussion2.mp3" class="clip" id="W"></audio></button>
+    <button onclick="eplay()"class="drum-pad" id="e-audio">E<audio src= "C:\Users\jpaul\Music\Sounds\percussion3.mp3" class="clip" id="E"></audio></button>
+  </div>
+  <div>
+    <button onclick="aplay()"class="drum-pad" id="a-audio">A<audio src= "C:\Users\jpaul\Music\Sounds\percussion4.mp3" class="clip" id="A"></audio></button>
+    <button onclick="splay()"class="drum-pad" id="s-audio">S<audio src= "C:\Users\jpaul\Music\Sounds\percussion5.mp3"class="clip" id="S"></audio></button>
+    <button onclick="dplay()"class="drum-pad" id="d-audio">D<audio src= "C:\Users\jpaul\Music\Sounds\percussion6.wav" class="clip" id="D"></audio></button>
+  </div>
+  <div>
+    <button onclick="zplay()"class="drum-pad" id="z-audio">Z<audio src= "C:\Users\jpaul\Music\Sounds\percussion7.wav" class="clip" id="Z"></audio></button>
+    <button onclick="xplay()"class="drum-pad" id="x-audio">X<audio src= "C:\Users\jpaul\Music\Sounds\percussion8.wav"class="clip" id="X"></audio></button>
+    <button onclick="cplay()"class="drum-pad" id="c-audio">C<audio src= "C:\Users\jpaul\Music\Sounds\percussion9.mp3" class="clip" id="C"></audio></button>
+  </div>
+  </section>
+  <div id="display-container">
+    <section id="toggle-area"
+    <div>
+    <h3 id="display">Select a button</h3>
+    </div>
+  </div>
+</div>
+<footer>Audio files from <a href="https://www.zapsplat.com">Zapsplat</a> and <a href="https://freesound.org">freesound</a></footer>
+</main>
+  </body>
+</html>
